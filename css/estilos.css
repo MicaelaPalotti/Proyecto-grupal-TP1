@@ -1,0 +1,58 @@
+.contenedor { max-width: 960px;
+			background-color: yellow; 
+			margin: auto}
+
+.logo {margin-top: 25px;
+		margin-bottom: 25px;
+	  }
+
+
+.navegador{text-align: right;
+			list-style: none;
+			float: right;
+			margin-top: 38px;
+			margin-bottom: 25px}
+
+
+.navegador li{display: inline-block;}
+
+.navegador li a{text-decoration: none;
+				outline: none;
+				text-transform: uppercase;
+				color: grey
+				}
+
+.imagenheader {background-image: url("../imagenes/indexbanner-bg3.jpg");
+			  height: 528px;
+			  background-size:cover;}
+
+.textoimg {padding: 250px;
+		color:#fff}
+
+.textoimg h1{font-size: 48px;
+			font-weight: 700;
+			margin-top: 20px;
+			margin-bottom: 10px;
+			line-height: 1.1}
+
+.textoimg p {color:#c2c5cc;
+		font-size: 18px;
+		font-weight: normal;
+		line-height: 36px;
+		margin: 0 0 10px 0}
+
+.formulario{display: inline-block;
+			position: relative;
+			}
+
+ .celda {width:755px;
+		height:50px;
+		box-sizing: border-box;
+		}
+
+.botonbuscar {width: 200px;
+			height: 50px;
+			background-color:#00abf0;
+			border: none}
+
+.alinearsearch {width: 150px}
